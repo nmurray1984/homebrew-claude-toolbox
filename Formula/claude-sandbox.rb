@@ -2,8 +2,8 @@ class ClaudeSandbox < Formula
   desc "Run Claude Code in an isolated OrbStack Docker container"
   homepage "https://github.com/nmurray1984/homebrew-claude-toolbox"
   url "https://raw.githubusercontent.com/nmurray1984/homebrew-claude-toolbox/main/bin/claude-sandbox"
-  sha256 "5728f4ab5645f01952ef110f6eafd7f5bce8b54c076210eb5d0bb627fc749fa0"
-  version "1.0.0"
+  sha256 "5bc813ac4fc0099f2d991fcf44897e4c5746adbfd764b49771ab87101308879d2"
+  version "1.1.0"
 
   def install
     bin.install "claude-sandbox"
