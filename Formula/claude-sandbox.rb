@@ -3,7 +3,7 @@ class ClaudeSandbox < Formula
   homepage "https://github.com/nmurray1984/homebrew-claude-toolbox"
   url "https://raw.githubusercontent.com/nmurray1984/homebrew-claude-toolbox/main/bin/claude-sandbox"
   sha256 "0f067ab1782c043319f111c80e55139887599e52d00ab3eb5b0a9954808b54a3"
-  version "1.1.1"
+  version "1.1.2"
 
   def install
     bin.install "claude-sandbox"

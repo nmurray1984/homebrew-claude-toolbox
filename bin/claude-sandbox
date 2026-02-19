@@ -45,7 +45,7 @@ echo ""
 # -e             → pass in the API key
 docker run --rm -it \
   --name "$CONTAINER_NAME" \
-  -v "${HOME}/.claude:/root/.claude" \
+  -v "${HOME}/.claude-sandbox:/root/.claude" \
   -v "${WORK_DIR}:/workspace" \
   --network=host \
   -e ANTHROPIC_API_KEY \
