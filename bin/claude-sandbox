@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN npm install -g @anthropic-ai/claude-code
 
 WORKDIR /workspace
-ENTRYPOINT ["claude"]
+ENTRYPOINT ["claude --dangerously-skip-permissions"]
 DOCKERFILE
   echo "✅ Image built."
 fi
